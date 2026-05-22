@@ -49,6 +49,8 @@ Identify the best-performing combinations and suggest practical applications.
 An educational content platform wants to provide quick and easy-to-understand summaries of technical research papers for undergraduate students. The system uses different AI platforms and prompting techniques to summarize a 500-word article on **“The Basics of Blockchain Technology.”**
 The article explains blockchain concepts such as decentralized ledgers, blocks, cryptographic hashing, transparency, security, and applications in cryptocurrencies and supply chain management.
 
+<img width="5874" height="3300" alt="image" src="https://github.com/user-attachments/assets/cf377f86-5e77-4a64-ad0f-c14f802f9cdc" />
+
 ---
 
 # 1. Straightforward Prompt
@@ -177,6 +179,183 @@ Blockchain is a digital ledger technology that stores records in blocks secured 
 **Winner:** Gemini – Delivered concise yet technically rich explanations with good readability.
 
 ---
+# 4. Zero-Shot Prompting
+
+## Prompt
+
+“Summarize the article on ‘The Basics of Blockchain Technology’ for undergraduate students in less than 120 words.”
+
+---
+
+## Outputs
+
+### ChatGPT
+
+Blockchain is a decentralized technology that records transactions in connected blocks secured by cryptographic hashing. Since data is shared across multiple computers, it is transparent and difficult to alter. Blockchain removes the need for central authorities and is widely used in cryptocurrencies, smart contracts, and supply chain management.
+
+---
+
+### Claude
+
+Blockchain is a distributed ledger system that securely records data across many computers. Information is stored in linked blocks protected using cryptography, making records reliable and tamper-resistant. Blockchain technology is commonly used in digital currencies, secure transactions, and logistics tracking.
+
+
+
+### Gemini
+
+Blockchain is a secure digital ledger where transactions are stored in linked blocks. Cryptographic hashing protects the data, while decentralization increases transparency and trust. Blockchain supports applications such as Bitcoin, digital identity systems, and supply chain monitoring.
+
+
+
+### Copilot
+
+Blockchain is a digital system for storing transactions in secure blocks connected together. The technology is decentralized, meaning no single organization controls the data. It is widely used in cryptocurrency and secure record management systems.
+
+
+# Evaluation
+
+| Criteria           | ChatGPT            | Claude         | Gemini        | Copilot    |
+| ------------------ | ------------------ | -------------- | ------------- | ---------- |
+| Relevance          | ✅ High             | ✅ High         | ✅ High        | ✅ Moderate |
+| Coherence          | ✅ Excellent        | ✅ Good         | ✅ Good        | ✅ Simple   |
+| Technical Accuracy | ✅ Strong           | ✅ Strong       | ✅ Strong      | ✅ Moderate |
+| Responsiveness     | ✅ Fast             | ✅ Fast         | ✅ Fast        | ✅ Fast     |
+| Tone               | ✅ Student-Friendly | ✅ Professional | ✅ Informative | ✅ Basic    |
+
+### Winner
+
+🏆 **ChatGPT** – Produced the clearest and most student-friendly zero-shot summary.
+
+---
+
+# 5. Chain-of-Thought Prompting
+
+## Prompt
+
+“Read the article on Blockchain Technology and summarize it step by step by:
+
+1. Explaining what blockchain is.
+2. Describing how blocks and hashing work.
+3. Explaining decentralization.
+4. Mentioning real-world applications.
+5. Concluding with the importance of blockchain.”
+
+---
+
+## Outputs
+
+### ChatGPT
+
+1. Blockchain is a decentralized digital ledger used to record transactions securely.
+2. Transactions are stored inside blocks connected through cryptographic hashes, making data difficult to modify.
+3. Since copies of the ledger are shared across many computers, no central authority controls the system.
+4. Blockchain is used in cryptocurrencies, smart contracts, banking, and supply chain management.
+5. Overall, blockchain improves transparency, trust, and security in digital systems.
+
+
+
+### Claude
+
+1. Blockchain is a secure method for recording digital information.
+2. Each block stores transaction data and links to previous blocks using cryptographic hashes.
+3. Decentralization ensures that no single organization controls the network.
+4. Applications include cryptocurrencies, digital agreements, and secure information sharing.
+5. Blockchain technology increases reliability and prevents tampering.
+
+
+### Gemini
+
+1. Blockchain is a distributed ledger technology that stores information securely.
+2. Data is organized into blocks protected through cryptographic hashing.
+3. Multiple participants maintain the ledger, ensuring transparency and decentralization.
+4. Blockchain is used in Bitcoin, healthcare systems, and logistics tracking.
+5. The technology enables secure and transparent digital transactions.
+
+
+
+### Copilot
+
+1. Blockchain records information digitally in connected blocks.
+2. Hashing protects transaction data from unauthorized changes.
+3. The system works without a central authority.
+4. Blockchain supports cryptocurrency and online transaction systems.
+5. It provides secure and transparent record management.
+
+
+# Evaluation
+
+| Criteria           | ChatGPT              | Claude         | Gemini        | Copilot    |
+| ------------------ | -------------------- | -------------- | ------------- | ---------- |
+| Relevance          | ✅ Excellent          | ✅ High         | ✅ High        | ✅ Moderate |
+| Coherence          | ✅ Step-by-Step Clear | ✅ Logical      | ✅ Structured  | ✅ Simple   |
+| Technical Accuracy | ✅ Strong             | ✅ Strong       | ✅ Strong      | ✅ Moderate |
+| Responsiveness     | ✅ Fast               | ✅ Fast         | ✅ Fast        | ✅ Fast     |
+| Tone               | ✅ Educational        | ✅ Professional | ✅ Informative | ✅ Basic    |
+
+### Winner
+
+🏆 **ChatGPT** – Best reasoning flow and educational clarity.
+
+---
+
+# 6. Role-Based Prompting
+
+## Prompt
+
+“You are a university professor teaching first-year computer science students. Summarize the article ‘The Basics of Blockchain Technology’ in simple classroom language with examples.”
+
+## Outputs
+
+### ChatGPT
+
+Blockchain is like a digital notebook shared among many computers. Every transaction is stored in blocks, and each block is connected securely using cryptographic hashing. Because everyone shares the same record, it becomes very difficult to cheat or change information. Blockchain is mainly used in Bitcoin, online banking, and supply chain tracking. Think of it as a secure shared Google Sheet that nobody can secretly edit.
+
+
+### Claude
+
+Imagine blockchain as a shared digital record book that many computers maintain together. Information is grouped into blocks connected securely through cryptographic methods. Since no central authority controls the ledger, blockchain creates transparency and trust. Applications include cryptocurrency, digital contracts, and secure record systems.
+
+### Gemini
+
+Blockchain technology works like a shared online database where all users can verify transactions. Data is stored in secure blocks connected together using hashing techniques. This decentralized system increases trust and security. Blockchain is widely used in cryptocurrencies and logistics management.
+
+
+### Copilot
+
+Blockchain is a technology that stores information in secure connected blocks. Since the system is decentralized, many computers share the same data. Blockchain is used for cryptocurrency and secure business transactions.
+
+
+# Evaluation
+
+| Criteria           | ChatGPT                   | Claude         | Gemini        | Copilot    |
+| ------------------ | ------------------------- | -------------- | ------------- | ---------- |
+| Relevance          | ✅ Excellent               | ✅ High         | ✅ High        | ✅ Moderate |
+| Coherence          | ✅ Very Natural            | ✅ Natural      | ✅ Clear       | ✅ Simple   |
+| Technical Accuracy | ✅ Strong                  | ✅ Strong       | ✅ Strong      | ✅ Moderate |
+| Responsiveness     | ✅ Fast                    | ✅ Fast         | ✅ Fast        | ✅ Fast     |
+| Tone               | ✅ Highly Student-Friendly | ✅ Professional | ✅ Informative | ✅ Basic    |
+
+### Winner
+
+🏆 **ChatGPT** – Best classroom-style explanation with relatable examples.
+
+
+
+# Updated Overall Comparison
+
+| Prompting Technique        | Best Platform             | Key Strength                     |
+| -------------------------- | ------------------------- | -------------------------------- |
+| Straightforward Prompting  | ChatGPT                   | Balanced clarity and detail      |
+| Tabular Format Prompting   | ChatGPT / Claude / Gemini | Strong structured summarization  |
+| Missing Word Prompting     | Gemini                    | Concise technical summaries      |
+| Zero-Shot Prompting        | ChatGPT                   | Clear and direct summarization   |
+| Chain-of-Thought Prompting | ChatGPT                   | Excellent reasoning and flow     |
+| Role-Based Prompting       | ChatGPT                   | Highly engaging educational tone |
+
+
+# Final Observation
+
+The addition of Zero-Shot, Chain-of-Thought, and Role-Based prompting demonstrated that advanced prompting strategies significantly improve educational summarization quality. Among all tested platforms, [ChatGPT](https://chatgpt.com?utm_source=chatgpt.com) consistently produced the most balanced responses in terms of readability, coherence, technical correctness, and user experience for undergraduate students.
 
 # Result:
 
